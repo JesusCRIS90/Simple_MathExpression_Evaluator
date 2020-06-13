@@ -14,4 +14,6 @@ include_directories(include)
 #The file(GLOB...) allows for wildcard additions:
 file(GLOB SOURCES "source/*.cpp")
 
-add_library(MyFirstSharedLib SHARED ${SOURCES})
+# To generate Shared Lib uncomment line 18 and comment line 19
+#add_library(MyFirstSharedLib SHARED ${SOURCES})
+add_executable(GiveMe_A_Name ${SOURCES})
