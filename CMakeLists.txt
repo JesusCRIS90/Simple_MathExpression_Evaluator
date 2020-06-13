@@ -8,7 +8,7 @@ set(CMAKE_BUILD_TYPE Release)
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-#Bring the headers, such as Student.h into the project
+#Bring the headers to the project
 include_directories(include)
 
 #The file(GLOB...) allows for wildcard additions:
